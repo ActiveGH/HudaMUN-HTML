@@ -32,3 +32,59 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
+const targetText = "HudaMUN";
+const display = document.getElementById("name-display");
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+const totalDuration = 500; // total spin time (ms)
+const letterDelay = 40; // delay between each letter stopping
+
+for (let i = 0; i < targetText.length; i++) {
+  const span = document.createElement("span");
+  span.classList.add("letter");
+  display.appendChild(span);
+
+  let count = 0;
+  const maxCount = Math.floor(totalDuration / 40);
+  const interval = setInterval(() => {
+    span.textContent =
+      characters[Math.floor(Math.random() * characters.length)];
+    count++;
+    if (count > maxCount + i * 2) {
+      // slight delay between letters
+      clearInterval(interval);
+      span.textContent = targetText[i];
+      span.style.filter = "none";
+      span.classList.add("revealed");
+
+      if (i === targetText.length - 1) {
+        // Create wrapper for last letter
+        const wrapper = document.createElement("span");
+        wrapper.style.position = "relative";
+        wrapper.style.display = "inline-block";
+
+        // Remove the last letter span from display
+        display.removeChild(span);
+
+        // Append the letter span into wrapper
+        wrapper.appendChild(span);
+
+        // Append wrapper immediately (without cursor yet)
+        display.appendChild(wrapper);
+
+        // Create cursor span (but don't append yet)
+        const cursor = document.createElement("span");
+        cursor.classList.add("cursor");
+        cursor.textContent = "|";
+        cursor.style.position = "absolute";
+        cursor.style.right = "-0.7ch";
+        cursor.style.bottom = "0";
+
+        // Append the cursor after 1.5 seconds delay
+        setTimeout(() => {
+          wrapper.appendChild(cursor);
+        }, 1500);
+      }
+    }
+  }, 40);
+}
