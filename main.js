@@ -88,3 +88,27 @@ for (let i = 0; i < targetText.length; i++) {
     }
   }, 40);
 }
+
+const subtitleText = "21-22-23 June";
+const subtitleDisplay = document.getElementById("subtitle-display");
+const subtitleCharacters =
+  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789- ";
+const scrambleSpeed = 30; // ms per scramble update
+const maxScrambles = 10; // number of random changes per letter
+
+for (let i = 0; i < subtitleText.length; i++) {
+  const span = document.createElement("span");
+  subtitleDisplay.appendChild(span);
+
+  let count = 0;
+  const interval = setInterval(() => {
+    span.textContent =
+      subtitleCharacters[Math.floor(Math.random() * subtitleCharacters.length)];
+    count++;
+    if (count > maxScrambles + i * 2) {
+      // sequential delay per letter
+      clearInterval(interval);
+      span.textContent = subtitleText[i];
+    }
+  }, scrambleSpeed);
+}
