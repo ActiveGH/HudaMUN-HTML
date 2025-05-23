@@ -38,6 +38,37 @@ const display = document.getElementById("name-display");
 const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const totalDuration = 500; // total spin time (ms)
 const letterDelay = 40; // delay between each letter stopping
+const flickerMinInterval = 200; // slower flicker min delay in ms
+const flickerMaxInterval = 800; // slower flicker max delay in ms
+const flickerMinIntensity = 0.8; // 80% brightness (less dim)
+const flickerMaxIntensity = 1; // 100% brightness (full neon)
+
+function flickerNeon(letterSpan) {
+  function flick() {
+    const delayBetweenFlicks = 1000 + Math.random() * 2000; // 1s to 3s between flicks
+
+    setTimeout(() => {
+      // flicker steps: dim then restore quickly
+      letterSpan.style.transition = "text-shadow 50ms ease";
+      letterSpan.style.textShadow = `0 0 5px rgba(250,204,21,0.8), 0 0 10px rgba(250,204,21,0.8)`;
+
+      setTimeout(() => {
+        letterSpan.style.textShadow = `
+          0 0 5px  rgba(250,204,21,0.45),
+          0 0 10px rgba(250,204,21,0.45),
+          0 0 20px rgba(250,204,21,0.45),
+          0 0 30px rgba(250,204,21,0.45),
+          0 0 40px rgba(250,204,21,0.45),
+          0 0 55px rgba(250,204,21,0.45),
+          0 0 75px rgba(250,204,21,0.45)
+        `;
+      }, 50);
+
+      flick(); // schedule next flick after delay
+    }, delayBetweenFlicks);
+  }
+  flick();
+}
 
 for (let i = 0; i < targetText.length; i++) {
   const span = document.createElement("span");
@@ -55,7 +86,18 @@ for (let i = 0; i < targetText.length; i++) {
       clearInterval(interval);
       span.textContent = targetText[i];
       span.style.filter = "none";
+      span.style.textShadow = `
+        0 0 5px rgba(250,204,21,0.45),
+        0 0 10px rgba(250,204,21,0.45),
+        0 0 20px rgba(250,204,21,0.45),
+        0 0 30px rgba(250,204,21,0.45),
+        0 0 40px rgba(250,204,21,0.45),
+        0 0 55px rgba(250,204,21,0.45),
+        0 0 75px rgba(250,204,21,0.45)
+        `;
+      span.style.transition = "text-shadow 0.5s ease";
       span.classList.add("revealed");
+      flickerNeon(span); // #
 
       if (i === targetText.length - 1) {
         // Create wrapper for last letter
