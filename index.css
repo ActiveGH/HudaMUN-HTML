@@ -240,7 +240,7 @@
 
 .banner-home-container1 {
   gap: var(--dl-layout-space-unit);
-  height: 600px;
+  min-height: 600px;
   display: flex;
   position: relative;
   align-items: center;
