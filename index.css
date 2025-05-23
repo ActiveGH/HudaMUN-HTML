@@ -402,6 +402,35 @@
   }
 }
 
+.letter.revealed {
+  animation: bounceUp 1.5s ease;
+  color: #facc15; /* neon text color */
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15, 0 0 20px #facc15,
+    0 0 30px #facc15, 0 0 40px #facc15, 0 0 55px #facc15, 0 0 75px #facc15;
+  transition: text-shadow 0.1s ease;
+  filter: none;
+}
+
+/* No neon/flicker on cursor */
+.cursor {
+  color: #facc15;
+  font-weight: bold;
+  animation: blink 1.5s infinite steps(2, start);
+  width: 1ch;
+  display: inline-block;
+  position: absolute;
+  right: -0.7ch;
+  bottom: 0;
+}
+
+.tilt-neon {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
 @media (max-width: 479px) {
   .banner-home-max-width {
     height: 75%;
