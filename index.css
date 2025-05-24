@@ -698,6 +698,10 @@
   }
 }
 
+.footer1-wrapper {
+  display: contents;
+}
+
 .f1-wrapper {
   display: contents;
 }
