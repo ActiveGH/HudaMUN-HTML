@@ -86,29 +86,40 @@
 
 #countdown {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  padding: 15px;
+  gap: 1.5rem;
+  justify-content: center;
+  font-family: "Dm Sans", sans-serif;
+  color: #fac225;
+  text-shadow: 0 0 5px #fac225, 0 0 10px #fac225;
 }
+
 .countdown-item {
-  background: rgba(255, 255, 255, 0.1);
+  background: transparent;
   padding: 1rem;
-  border-radius: 8px;
-  color: #fff;
+  border: 1px solid #fac225;
+  border-radius: 0;
+  text-align: center;
 }
+
 .countdown-item span {
+  font-size: 2.8rem;
+  font-weight: bold;
   display: block;
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1;
+  transition: all 0.2s ease;
 }
+
 .countdown-item small {
-  display: block;
-  margin-top: 0.25rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  opacity: 0.8;
-  color: #ddd;
+  color: #fac225;
+  opacity: 0.7;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+.countdown-item span {
+  animation: flicker 3s infinite;
 }
 
 .navbar1-top {
