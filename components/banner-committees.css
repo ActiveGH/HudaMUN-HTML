@@ -8,7 +8,7 @@
   justify-content: center;
   background-color: #000030;
 }
- 
+
 .banner-committees-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -21,11 +21,11 @@
   padding-bottom: var(--dl-layout-space-unit);
   justify-content: center;
 }
- 
+
 .banner-committees-title {
   top: 0px;
   left: 0px;
-  color: #fac225;
+  color: #facc15;
   right: 0px;
   bottom: 0px;
   height: 92px;
@@ -37,20 +37,16 @@
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .banner-committees-fragment {
   display: contents;
 }
- 
+
 .banner-committees-text {
   display: inline-block;
 }
- 
 
- 
-
- 
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .banner-committees-max-width {
     height: 50%;
     align-items: center;

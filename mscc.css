@@ -237,6 +237,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: #000030;
+  border-top: 2px solid #facc15;
 }
 
 .banner-committees-max-width {
@@ -255,7 +256,9 @@
 .banner-committees-title {
   top: 0px;
   left: 0px;
-  color: #fac225;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15,
+    0 0 20px rgba(250, 204, 21, 0.5);
   right: 0px;
   bottom: 0px;
   height: 92px;
@@ -360,7 +363,7 @@
   margin: var(--dl-layout-space-threeunits);
   border-radius: 99px;
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .app-component-text12 {

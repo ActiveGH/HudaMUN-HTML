@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team31-content1 {
   gap: var(--dl-layout-space-sixunits);
   display: flex;
@@ -13,7 +13,7 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team31-content2 {
   gap: var(--dl-layout-space-fourunits);
   height: auto;
@@ -24,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team31-row1 {
   gap: 64px;
   display: flex;
@@ -34,7 +34,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
- 
+
 .team31-card1 {
   flex: 1;
   display: flex;
@@ -44,7 +44,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content3 {
   gap: 16px;
   display: flex;
@@ -53,24 +53,24 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text10 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text11 {
   font-size: 25px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image1 {
   width: 50%;
   height: 50%;
@@ -79,19 +79,19 @@
   padding: var(--dl-layout-space-oneandhalfunits);
   overflow: visible;
 }
- 
+
 .team31-button10 {
   gap: 16px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team31-button11 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-card2 {
   flex: 1;
   display: flex;
@@ -102,7 +102,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content4 {
   gap: 16px;
   display: flex;
@@ -111,17 +111,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text13 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text14 {
   font-size: 25px;
   font-style: normal;
@@ -129,7 +129,7 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image2 {
   width: 50%;
   height: 50%;
@@ -138,7 +138,7 @@
   padding: var(--dl-layout-space-halfunit);
   overflow: visible;
 }
- 
+
 .team31-button12 {
   gap: 16px;
   display: flex;
@@ -147,12 +147,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-button13 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-row2 {
   gap: var(--dl-layout-space-fourunits);
   display: flex;
@@ -162,7 +162,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
- 
+
 .team31-card3 {
   flex: 1;
   display: flex;
@@ -173,7 +173,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content5 {
   gap: 16px;
   display: flex;
@@ -182,24 +182,24 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text16 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text17 {
   font-size: 25px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image3 {
   width: 50%;
   height: 50%;
@@ -207,7 +207,7 @@
   display: block;
   overflow: visible;
 }
- 
+
 .team31-button14 {
   gap: 16px;
   display: flex;
@@ -216,12 +216,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-button15 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-card4 {
   flex: 1;
   display: flex;
@@ -232,7 +232,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content6 {
   gap: 16px;
   display: flex;
@@ -241,24 +241,24 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text19 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text20 {
   font-size: 25px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image4 {
   width: 50%;
   height: auto;
@@ -267,7 +267,7 @@
   padding: var(--dl-layout-space-unit);
   overflow: visible;
 }
- 
+
 .team31-button16 {
   gap: 16px;
   display: flex;
@@ -276,12 +276,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-button17 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-row3 {
   gap: var(--dl-layout-space-fourunits);
   display: flex;
@@ -291,7 +291,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
- 
+
 .team31-card5 {
   flex: 1;
   display: flex;
@@ -302,7 +302,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content7 {
   gap: 16px;
   display: flex;
@@ -311,24 +311,24 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text22 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text23 {
   font-size: 25px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image5 {
   width: 50%;
   height: 50%;
@@ -336,7 +336,7 @@
   display: block;
   overflow: visible;
 }
- 
+
 .team31-button18 {
   gap: 16px;
   display: flex;
@@ -345,12 +345,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-button19 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-card6 {
   flex: 1;
   display: flex;
@@ -361,7 +361,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
- 
+
 .team31-content8 {
   gap: 16px;
   display: flex;
@@ -370,24 +370,24 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-text25 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team31-text26 {
   font-size: 25px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team31-member-image6 {
   width: 50%;
   height: 50%;
@@ -396,7 +396,7 @@
   padding: var(--dl-layout-space-oneandhalfunits);
   overflow: visible;
 }
- 
+
 .team31-button20 {
   gap: 16px;
   display: flex;
@@ -405,157 +405,157 @@
   flex-direction: column;
   justify-content: flex-start;
 }
- 
+
 .team31-button21 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team31-fragment10 {
   display: contents;
 }
- 
+
 .team31-text28 {
   display: inline-block;
 }
- 
+
 .team31-fragment11 {
   display: contents;
 }
- 
+
 .team31-text29 {
   display: inline-block;
 }
- 
+
 .team31-fragment12 {
   display: contents;
 }
- 
+
 .team31-text30 {
   display: inline-block;
 }
- 
+
 .team31-fragment13 {
   display: contents;
 }
- 
+
 .team31-text31 {
   display: inline-block;
 }
- 
+
 .team31-fragment14 {
   display: contents;
 }
- 
+
 .team31-text32 {
   display: inline-block;
 }
- 
+
 .team31-fragment15 {
   display: contents;
 }
- 
+
 .team31-text33 {
   display: inline-block;
 }
- 
+
 .team31-fragment16 {
   display: contents;
 }
- 
+
 .team31-text34 {
   display: inline-block;
 }
- 
+
 .team31-fragment17 {
   display: contents;
 }
- 
+
 .team31-text35 {
   display: inline-block;
 }
- 
+
 .team31-fragment18 {
   display: contents;
 }
- 
+
 .team31-text36 {
   display: inline-block;
 }
- 
+
 .team31-fragment19 {
   display: contents;
 }
- 
+
 .team31-text37 {
   display: inline-block;
 }
- 
+
 .team31-fragment20 {
   display: contents;
 }
- 
+
 .team31-text38 {
   display: inline-block;
 }
- 
+
 .team31-fragment21 {
   display: contents;
 }
- 
+
 .team31-text39 {
   display: inline-block;
 }
- 
+
 .team31-fragment22 {
   display: contents;
 }
- 
+
 .team31-text40 {
   display: inline-block;
 }
- 
+
 .team31-fragment23 {
   display: contents;
 }
- 
+
 .team31-text43 {
   display: inline-block;
 }
- 
+
 .team31-fragment24 {
   display: contents;
 }
- 
+
 .team31-text46 {
   display: inline-block;
 }
- 
+
 .team31-fragment25 {
   display: contents;
 }
- 
+
 .team31-text49 {
   display: inline-block;
 }
- 
+
 .team31-fragment26 {
   display: contents;
 }
- 
+
 .team31-text52 {
   display: inline-block;
 }
- 
+
 .team31-fragment27 {
   display: contents;
 }
- 
+
 .team31-text55 {
   display: inline-block;
 }
- 
-@media(max-width: 991px) {
+
+@media (max-width: 991px) {
   .team31-row1 {
     align-items: center;
     flex-direction: row;
@@ -569,8 +569,8 @@
     flex-direction: row;
   }
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .team31-row1 {
     gap: var(--dl-layout-space-twounits);
   }
@@ -581,8 +581,8 @@
     gap: var(--dl-layout-space-twounits);
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .team31-row1 {
     flex-direction: column;
   }

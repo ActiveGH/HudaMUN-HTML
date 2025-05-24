@@ -235,6 +235,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: #000030;
+  border-top: 2px solid #facc15;
 }
 
 .banner-committees-max-width {
@@ -253,7 +254,9 @@
 .banner-committees-title {
   top: 0px;
   left: 0px;
-  color: #fac225;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15,
+    0 0 20px rgba(250, 204, 21, 0.5);
   right: 0px;
   bottom: 0px;
   height: 92px;
@@ -349,8 +352,8 @@
 }
 
 .team3-text10 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -378,7 +381,7 @@
 
 .team3-navlink {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-card2 {
@@ -402,8 +405,8 @@
 }
 
 .team3-text12 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -432,7 +435,7 @@
 
 .team3-link1 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-row2 {
@@ -466,8 +469,8 @@
 }
 
 .team3-text14 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -495,7 +498,7 @@
 
 .team3-link2 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-card4 {
@@ -519,8 +522,8 @@
 }
 
 .team3-text16 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -548,7 +551,7 @@
 
 .team3-link3 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-row3 {
@@ -582,8 +585,8 @@
 }
 
 .team3-text18 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -612,7 +615,7 @@
 
 .team3-link4 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-card6 {
@@ -635,8 +638,8 @@
 }
 
 .team3-text20 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -662,7 +665,7 @@
 
 .team3-link5 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team3-row4 {
@@ -696,8 +699,8 @@
 }
 
 .team3-text22 {
-  fill: #fac225;
-  color: #fac225;
+  fill: #facc15;
+  color: #facc15;
   display: block;
   font-size: 35px;
   font-style: normal;
@@ -725,7 +728,7 @@
 
 .team3-link6 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .committees-fragment19 {
