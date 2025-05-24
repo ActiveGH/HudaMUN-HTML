@@ -260,6 +260,12 @@
   }
 }
 
+@media (max-width: 479px) {
+  .home-text16 {
+    font-size: 20px;
+  }
+}
+
 .banner-home-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -1267,4 +1273,11 @@
 
 .home-text57 {
   display: inline-block;
+}
+
+.home-yousef {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(250, 194, 37);
 }
