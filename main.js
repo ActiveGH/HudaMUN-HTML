@@ -117,7 +117,7 @@ for (let i = 0; i < targetText.length; i++) {
         // Create cursor span (but don't append yet)
         const cursor = document.createElement("span");
         cursor.classList.add("cursor");
-        cursor.textContent = "|";
+        cursor.textContent = "_";
         cursor.style.position = "absolute";
         cursor.style.right = "-0.7ch";
         cursor.style.bottom = "0";
