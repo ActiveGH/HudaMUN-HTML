@@ -122,6 +122,32 @@
   animation: flicker 3s infinite;
 }
 
+#apply-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+#apply-button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+  padding: 0.75rem 2rem;
+  background-color: transparent;
+  color: #facc15;
+  border: 1px solid #facc15;
+  text-shadow: 0 0 3px #facc15, 0 0 7px #facc15;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  display: inline-block;
+}
+
+#apply-button:hover {
+  background-color: #facc15;
+  color: #000;
+  text-shadow: none;
+}
+
 .navbar1-top {
   width: 100%;
   display: flex;
@@ -672,7 +698,7 @@
   }
 }
 
-.footer1-wrapper {
+.f1-wrapper {
   display: contents;
 }
 
