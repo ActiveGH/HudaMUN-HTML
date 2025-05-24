@@ -90,14 +90,14 @@
   gap: 1.5rem;
   justify-content: center;
   font-family: "Dm Sans", sans-serif;
-  color: #fac225;
-  text-shadow: 0 0 5px #fac225, 0 0 10px #fac225;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15;
 }
 
 .countdown-item {
   background: transparent;
   padding: 1rem;
-  border: 1px solid #fac225;
+  border: 1px solid #facc15;
   border-radius: 0;
   text-align: center;
 }
@@ -112,7 +112,7 @@
 .countdown-item small {
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #fac225;
+  color: #facc15;
   opacity: 0.7;
   margin-top: 0.3rem;
   display: block;
@@ -289,6 +289,7 @@
   background-repeat: space;
   background-position: center;
   padding: var(--dl-layout-space-threeunits);
+  border-top: 2px solid #facc15;
 }
 
 @media (max-width: 479px) {
@@ -328,7 +329,7 @@
 }
 
 .banner-home-title {
-  color: #fac225;
+  color: #facc15;
   font-size: 66px;
   font-style: normal;
   font-family: "DM Sans";
@@ -342,7 +343,7 @@
 
 .banner-home-navlink {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
   margin: 15px;
 }
 

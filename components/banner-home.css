@@ -12,7 +12,7 @@
   background-repeat: space;
   background-position: center;
 }
- 
+
 .banner-home-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -24,7 +24,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-layout-space-unit);
 }
- 
+
 .banner-home-container2 {
   gap: var(--dl-layout-space-halfunit);
   display: flex;
@@ -32,56 +32,56 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .banner-home-image {
   width: 200px;
   object-fit: cover;
 }
- 
+
 .banner-home-title {
-  color: #fac225;
+  color: #facc15;
   font-size: 66px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .banner-home-text1 {
   font-style: normal;
   font-weight: 400;
 }
- 
+
 .banner-home-navlink {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .banner-home-fragment1 {
   display: contents;
 }
- 
+
 .banner-home-text3 {
   display: inline-block;
 }
- 
+
 .banner-home-fragment2 {
   display: contents;
 }
- 
+
 .banner-home-text4 {
   color: rgb(250, 194, 37);
   display: inline-block;
 }
- 
+
 .banner-home-fragment3 {
   display: contents;
 }
- 
+
 .banner-home-text5 {
   display: inline-block;
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .banner-home-max-width {
     height: 386px;
     padding-top: 0px;

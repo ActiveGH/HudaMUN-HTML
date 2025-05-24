@@ -220,6 +220,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: #000030;
+  border-top: 2px solid #facc15;
 }
 
 .banner-apps-max-width {
@@ -238,7 +239,9 @@
 .banner-apps-title {
   top: 0px;
   left: 0px;
-  color: #fac225;
+  color: #facc15;
+  text-shadow: 0 0 5px #facc15, 0 0 10px #facc15,
+    0 0 20px rgba(250, 204, 21, 0.5);
   right: 0px;
   bottom: 0px;
   height: 92px;
@@ -356,7 +359,7 @@
 
 .team14-link10 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-content12 {
@@ -389,7 +392,7 @@
 
 .team14-link11 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-content13 {
@@ -422,7 +425,7 @@
 
 .team14-link12 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide2 {
@@ -463,7 +466,7 @@
 
 .team14-link13 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-content15 {
@@ -496,7 +499,7 @@
 
 .team14-link14 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-content16 {
@@ -529,7 +532,7 @@
 
 .team14-link15 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-content17 {
@@ -562,7 +565,7 @@
 
 .team14-link16 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-pagination1 {
@@ -614,7 +617,7 @@
 
 .team14-link17 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide4 {
@@ -655,7 +658,7 @@
 
 .team14-link18 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide5 {
@@ -696,7 +699,7 @@
 
 .team14-link19 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide6 {
@@ -737,7 +740,7 @@
 
 .team14-link20 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide7 {
@@ -778,7 +781,7 @@
 
 .team14-link21 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-slide8 {
@@ -819,7 +822,7 @@
 
 .team14-link22 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
 
 .team14-slider-pagination2 {

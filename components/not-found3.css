@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .not-found3-max-width {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -16,49 +16,49 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .not-found3-text1 {
   font-size: 100px;
   text-align: center;
   font-family: "DM Sans";
 }
- 
+
 .not-found3-text2 {
   text-align: center;
   font-family: "DM Sans";
   text-transform: capitalize;
 }
- 
+
 .not-found3-button {
   color: #ffffff;
   border-color: #e23d00;
   border-width: 0px;
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .not-found3-action1 {
-  fill: #fac225;
+  fill: #facc15;
   color: #ffffff;
 }
- 
+
 .not-found3-fragment {
   display: contents;
 }
- 
+
 .not-found3-text3 {
   display: inline-block;
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .not-found3-max-width {
     align-items: center;
     padding-left: var(--dl-layout-space-threeunits);
     padding-right: var(--dl-layout-space-threeunits);
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .not-found3-max-width {
     padding-left: var(--dl-layout-space-oneandhalfunits);
     padding-right: var(--dl-layout-space-oneandhalfunits);

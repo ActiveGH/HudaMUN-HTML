@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team14-section-title {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -14,14 +14,14 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .team14-content10 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: column;
 }
- 
+
 .team14-slider1 {
   width: 100%;
   height: auto;
@@ -29,7 +29,7 @@
   position: relative;
   align-self: center;
 }
- 
+
 .team14-slider-slide1 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -37,7 +37,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-card {
   gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-content11 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -56,11 +56,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title10 {
   display: block;
 }
- 
+
 .team14-text101 {
   display: block;
   font-size: 60px;
@@ -70,16 +70,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text102 {
   text-align: center;
 }
- 
+
 .team14-link10 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-content12 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -89,11 +89,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title11 {
   display: block;
 }
- 
+
 .team14-text104 {
   display: block;
   font-size: 60px;
@@ -103,16 +103,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text105 {
   text-align: center;
 }
- 
+
 .team14-link11 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-content13 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -122,11 +122,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title12 {
   display: block;
 }
- 
+
 .team14-text107 {
   display: block;
   font-size: 60px;
@@ -136,16 +136,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text108 {
   text-align: center;
 }
- 
+
 .team14-link12 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide2 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -153,7 +153,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content14 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -163,11 +163,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title13 {
   display: block;
 }
- 
+
 .team14-text110 {
   display: block;
   font-size: 60px;
@@ -177,16 +177,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text111 {
   text-align: center;
 }
- 
+
 .team14-link13 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-content15 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -196,11 +196,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title14 {
   display: block;
 }
- 
+
 .team14-text113 {
   display: block;
   font-size: 60px;
@@ -210,16 +210,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text114 {
   text-align: center;
 }
- 
+
 .team14-link14 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-content16 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -229,11 +229,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title15 {
   display: block;
 }
- 
+
 .team14-text116 {
   display: block;
   font-size: 60px;
@@ -243,16 +243,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text117 {
   text-align: center;
 }
- 
+
 .team14-link15 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-content17 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -262,11 +262,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title16 {
   display: block;
 }
- 
+
 .team14-text119 {
   display: block;
   font-size: 60px;
@@ -276,27 +276,27 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text120 {
   text-align: center;
 }
- 
+
 .team14-link16 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-pagination1 {
   display: block;
 }
- 
+
 .team14-slider2 {
   width: 100%;
   height: auto;
   display: none;
   position: relative;
 }
- 
+
 .team14-slider-slide3 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -304,7 +304,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content18 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -314,11 +314,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title17 {
   display: block;
 }
- 
+
 .team14-text122 {
   display: block;
   font-size: 60px;
@@ -328,16 +328,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text123 {
   text-align: center;
 }
- 
+
 .team14-link17 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide4 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -345,7 +345,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content19 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -355,11 +355,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title18 {
   display: block;
 }
- 
+
 .team14-text125 {
   display: block;
   font-size: 60px;
@@ -369,16 +369,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text126 {
   text-align: center;
 }
- 
+
 .team14-link18 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide5 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -386,7 +386,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content20 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -396,11 +396,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title19 {
   display: block;
 }
- 
+
 .team14-text128 {
   display: block;
   font-size: 60px;
@@ -410,16 +410,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text129 {
   text-align: center;
 }
- 
+
 .team14-link19 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide6 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -427,7 +427,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content21 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -437,11 +437,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title20 {
   display: block;
 }
- 
+
 .team14-text131 {
   display: block;
   font-size: 60px;
@@ -451,16 +451,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text132 {
   text-align: center;
 }
- 
+
 .team14-link20 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide7 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -468,7 +468,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content22 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -478,11 +478,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title21 {
   display: block;
 }
- 
+
 .team14-text134 {
   display: block;
   font-size: 60px;
@@ -492,16 +492,16 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text135 {
   text-align: center;
 }
- 
+
 .team14-link21 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-slide8 {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
@@ -509,7 +509,7 @@
   padding-right: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
 }
- 
+
 .team14-content23 {
   gap: var(--dl-layout-space-unit);
   width: 100%;
@@ -519,11 +519,11 @@
   flex-direction: column;
   justify-content: center;
 }
- 
+
 .team14-title22 {
   display: block;
 }
- 
+
 .team14-text137 {
   display: block;
   font-size: 60px;
@@ -533,799 +533,799 @@
   font-family: "DM Sans";
   font-weight: 600;
 }
- 
+
 .team14-text138 {
   text-align: center;
 }
- 
+
 .team14-link22 {
   text-decoration: none;
-  background-color: #fac225;
+  background-color: #facc15;
 }
- 
+
 .team14-slider-pagination2 {
   display: block;
 }
- 
+
 .team14-fragment10 {
   display: contents;
 }
- 
+
 .team14-text140 {
   display: inline-block;
 }
- 
+
 .team14-fragment11 {
   display: contents;
 }
- 
+
 .team14-text141 {
   display: inline-block;
 }
- 
+
 .team14-text142 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text143 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text144 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text145 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text146 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment12 {
   display: contents;
 }
- 
+
 .team14-text148 {
   display: inline-block;
 }
- 
+
 .team14-fragment13 {
   display: contents;
 }
- 
+
 .team14-text149 {
   display: inline-block;
 }
- 
+
 .team14-fragment14 {
   display: contents;
 }
- 
+
 .team14-text150 {
   display: inline-block;
 }
- 
+
 .team14-fragment15 {
   display: contents;
 }
- 
+
 .team14-text151 {
   display: inline-block;
 }
- 
+
 .team14-fragment16 {
   display: contents;
 }
- 
+
 .team14-text152 {
   display: inline-block;
 }
- 
+
 .team14-text153 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text154 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text155 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text156 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text157 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment17 {
   display: contents;
 }
- 
+
 .team14-text159 {
   display: inline-block;
 }
- 
+
 .team14-fragment18 {
   display: contents;
 }
- 
+
 .team14-text160 {
   display: inline-block;
 }
- 
+
 .team14-fragment19 {
   display: contents;
 }
- 
+
 .team14-text161 {
   display: inline-block;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 700;
 }
- 
+
 .team14-fragment20 {
   display: contents;
 }
- 
+
 .team14-text162 {
   display: inline-block;
 }
- 
+
 .team14-fragment21 {
   display: contents;
 }
- 
+
 .team14-text163 {
   display: inline-block;
 }
- 
+
 .team14-text164 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text165 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text166 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text167 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text168 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment22 {
   display: contents;
 }
- 
+
 .team14-text170 {
   display: inline-block;
 }
- 
+
 .team14-fragment23 {
   display: contents;
 }
- 
+
 .team14-text171 {
   display: inline-block;
 }
- 
+
 .team14-fragment24 {
   display: contents;
 }
- 
+
 .team14-text172 {
   display: inline-block;
 }
- 
+
 .team14-fragment25 {
   display: contents;
 }
- 
+
 .team14-text173 {
   display: inline-block;
 }
- 
+
 .team14-fragment26 {
   display: contents;
 }
- 
+
 .team14-text174 {
   display: inline-block;
 }
- 
+
 .team14-fragment27 {
   display: contents;
 }
- 
+
 .team14-text175 {
   display: inline-block;
 }
- 
+
 .team14-text176 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text177 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text178 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text179 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text180 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment28 {
   display: contents;
 }
- 
+
 .team14-text182 {
   display: inline-block;
 }
- 
+
 .team14-fragment29 {
   display: contents;
 }
- 
+
 .team14-text183 {
   display: inline-block;
 }
- 
+
 .team14-text184 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text185 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text186 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text187 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text188 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment30 {
   display: contents;
 }
- 
+
 .team14-text190 {
   display: inline-block;
 }
- 
+
 .team14-fragment31 {
   display: contents;
 }
- 
+
 .team14-text191 {
   display: inline-block;
 }
- 
+
 .team14-fragment32 {
   display: contents;
 }
- 
+
 .team14-text192 {
   display: inline-block;
 }
- 
+
 .team14-text193 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text194 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text195 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text196 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text197 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment33 {
   display: contents;
 }
- 
+
 .team14-text199 {
   display: inline-block;
 }
- 
+
 .team14-text200 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text201 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text202 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text203 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text204 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment34 {
   display: contents;
 }
- 
+
 .team14-text206 {
   display: inline-block;
 }
- 
+
 .team14-text207 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text208 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text209 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text210 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text211 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment35 {
   display: contents;
 }
- 
+
 .team14-text213 {
   display: inline-block;
 }
- 
+
 .team14-text214 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text215 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text216 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text217 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text218 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment36 {
   display: contents;
 }
- 
+
 .team14-text220 {
   display: inline-block;
 }
- 
+
 .team14-fragment37 {
   display: contents;
 }
- 
+
 .team14-text221 {
   display: inline-block;
 }
- 
+
 .team14-fragment38 {
   display: contents;
 }
- 
+
 .team14-text222 {
   display: inline-block;
 }
- 
+
 .team14-text223 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text224 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text225 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text226 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text227 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment39 {
   display: contents;
 }
- 
+
 .team14-text229 {
   display: inline-block;
 }
- 
+
 .team14-fragment40 {
   display: contents;
 }
- 
+
 .team14-text230 {
   display: inline-block;
 }
- 
+
 .team14-fragment41 {
   display: contents;
 }
- 
+
 .team14-text231 {
   display: inline-block;
 }
- 
+
 .team14-fragment42 {
   display: contents;
 }
- 
+
 .team14-text232 {
   display: inline-block;
 }
- 
+
 .team14-fragment43 {
   display: contents;
 }
- 
+
 .team14-text233 {
   display: inline-block;
 }
- 
+
 .team14-text234 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text235 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text236 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text237 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text238 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment44 {
   display: contents;
 }
- 
+
 .team14-text240 {
   display: inline-block;
 }
- 
+
 .team14-text241 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text242 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text243 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text244 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text245 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-fragment45 {
   display: contents;
 }
- 
+
 .team14-text247 {
   display: inline-block;
 }
- 
+
 .team14-fragment46 {
   display: contents;
 }
- 
+
 .team14-text248 {
   display: inline-block;
 }
- 
+
 .team14-fragment47 {
   display: contents;
 }
- 
+
 .team14-text249 {
   display: inline-block;
 }
- 
+
 .team14-fragment48 {
   display: contents;
 }
- 
+
 .team14-text250 {
   display: inline-block;
 }
- 
+
 .team14-fragment49 {
   display: contents;
 }
- 
+
 .team14-text251 {
   display: inline-block;
 }
- 
+
 .team14-text252 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text253 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text254 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text255 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
+
 .team14-text256 {
   font-size: 24px;
   font-style: normal;
   font-family: "DM Sans";
   font-weight: 500;
 }
- 
-@media(max-width: 767px) {
+
+@media (max-width: 767px) {
   .team14-max-width {
     padding: var(--dl-layout-space-threeunits);
   }
@@ -1336,8 +1336,8 @@
     display: block;
   }
 }
- 
-@media(max-width: 479px) {
+
+@media (max-width: 479px) {
   .team14-max-width {
     padding: var(--dl-layout-space-oneandhalfunits);
   }
