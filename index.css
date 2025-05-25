@@ -616,6 +616,7 @@ body {
 
 .contact11-icon1 {
   align-self: center;
+  fill: var(--dl-color-theme-neutral-dark);
 }
 
 .contact11-contact-info1 {
@@ -647,6 +648,7 @@ body {
 
 .contact11-icon3 {
   align-self: center;
+  fill: var(--dl-color-theme-neutral-dark);
 }
 
 .contact11-contact-info2 {
