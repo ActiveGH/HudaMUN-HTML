@@ -1359,3 +1359,20 @@ body {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 425px) {
+  #countdown {
+    gap: 14px;
+    padding: 8px;
+  }
+  #countdown .countdown-item {
+    padding: 10px 8px;
+    min-width: 48px;
+  }
+  #countdown span {
+    font-size: 1.6rem;
+  }
+  #countdown small {
+    font-size: 1rem;
+  }
+}
