@@ -371,7 +371,6 @@ body {
   height: auto;
   margin: var(--dl-layout-space-oneandhalfunits);
   display: block;
-  padding: var(--dl-layout-space-halfunit);
   overflow: visible;
 }
 
@@ -425,7 +424,6 @@ body {
   height: auto;
   margin: var(--dl-layout-space-oneandhalfunits);
   display: block;
-  padding: var(--dl-layout-space-halfunit);
   overflow: visible;
 }
 
@@ -605,7 +603,6 @@ body {
   height: auto;
   margin: var(--dl-layout-space-oneandhalfunits);
   display: block;
-  padding: var(--dl-layout-space-unit);
   overflow: visible;
 }
 
