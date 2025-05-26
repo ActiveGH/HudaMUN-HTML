@@ -616,6 +616,7 @@ body {
 
 .contact11-icon1 {
   align-self: center;
+  fill: var(--dl-color-theme-neutral-dark);
 }
 
 .contact11-contact-info1 {
@@ -647,6 +648,7 @@ body {
 
 .contact11-icon3 {
   align-self: center;
+  fill: var(--dl-color-theme-neutral-dark);
 }
 
 .contact11-contact-info2 {
@@ -1354,6 +1356,23 @@ body {
   }
   #countdown span {
     font-size: 2.2rem;
+  }
+  #countdown small {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #countdown {
+    gap: 14px;
+    padding: 8px;
+  }
+  #countdown .countdown-item {
+    padding: 10px 8px;
+    min-width: 48px;
+  }
+  #countdown span {
+    font-size: 1.6rem;
   }
   #countdown small {
     font-size: 1rem;
