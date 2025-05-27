@@ -1378,3 +1378,18 @@ body {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1030px) {
+  .big-top-icon {
+    width: 200px;
+  }
+  .home-text10 {
+    font-size: 26px;
+  }
+  .home-text11 {
+    font-size: 26px;
+  }
+  .home-text12 {
+    font-size: 26px;
+  }
+}
