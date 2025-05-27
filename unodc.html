@@ -154,6 +154,18 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <style>
+      @media (min-width: 768px) {
+        .navbar1-mobile-topbar {
+          display: none !important;
+        }
+      }
+      @media (max-width: 767px) {
+        .navbar1-mobile-topbar {
+          display: flex !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -168,21 +180,21 @@
             <header data-thq="thq-navbar" class="navbar1-navbar-interactive">
               <div data-thq="thq-navbar-nav" class="navbar1-desktop-menu">
                 <nav class="navbar1-links1">
-                  <img src="public/hudamun-logo.png" width="96px" alt="HudaMUN logo" /><a
+                  <img src="public/hudamun-logo-bar3.png" width="250px" alt="HudaMUN logo" /><a
                     href="https://hudamun.club/"
-                    class="navbar1-link11 thq-body-small thq-link"
+                    class="navbar1-link11 thq-body-small thq-link" style="font-size: 30px;"
                     ><fragment class="special-fragment12"
                       ><span class="special-text12">Home</span></fragment
                     ></a
                   ><a
                     href="committees.html"
-                    class="navbar1-link31 thq-body-small thq-link"
+                    class="navbar1-link31 thq-body-small thq-link" style="font-size: 30px;"
                     ><fragment class="special-fragment10"
                       ><span class="special-text10">Committees</span></fragment
                     ></a
                   ><a
                     href="applications.html"
-                    class="navbar1-link41 thq-body-small thq-link"
+                    class="navbar1-link41 thq-body-small thq-link" style="font-size: 30px;"
                     ><fragment class="special-fragment11"
                       ><span class="special-text11"
                         >Applications
@@ -191,13 +203,18 @@
                   >
                 </nav>
               </div>
-              <div data-thq="thq-burger-menu" class="navbar1-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="navbar1-icon1">
-                  <path
-                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                  ></path>
-                </svg>
-              </div>
+              <div class="navbar1-mobile-topbar" style="display:flex;align-items:center;width:100%;padding:0 1rem;">
+                <a href="https://hudamun.club/" style="flex-shrink:0;">
+                  <img src="public/hudamun-logo-bar3.png" width="240px" alt="HudaMUN logo" style="display:block; height: auto;" />
+                </a>
+                <span style="flex:1 1 auto;"></span>
+                <div data-thq="thq-burger-menu" class="navbar1-burger-menu" style="margin-left:auto;">
+                  <svg viewBox="0 0 1024 1024" class="navbar1-icon1">
+                    <path
+                      d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>              </div>
               <div data-thq="thq-mobile-menu" class="navbar1-mobile-menu">
                 <div class="navbar1-nav">
                   <div class="navbar1-top">
@@ -212,13 +229,13 @@
                   <nav class="navbar1-links2">
                     <a
                       href="https://hudamun.club/"
-                      class="navbar1-link12 thq-body-small thq-link"
+                      class="navbar1-link12 thq-body-small thq-link" style="font-size: 34px;"
                       ><fragment class="special-fragment12"
                         ><span class="special-text12">Home</span></fragment
                       ></a
                     ><a
                       href="committees.html"
-                      class="navbar1-link32 thq-body-small thq-link"
+                      class="navbar1-link32 thq-body-small thq-link" style="font-size: 34px;"
                       ><fragment class="special-fragment10"
                         ><span class="special-text10"
                           >Committees</span
@@ -226,7 +243,7 @@
                       ></a
                     ><a
                       href="applications.html"
-                      class="navbar1-link42 thq-body-small thq-link"
+                      class="navbar1-link42 thq-body-small thq-link" style="font-size: 34px;"
                       ><fragment class="special-fragment11"
                         ><span class="special-text11"
                           >Applications
