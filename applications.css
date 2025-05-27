@@ -185,7 +185,7 @@ body {
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .navbar1-navbar-interactive {
     background-color: var(--dl-color-theme-primary1);
     padding: var(--dl-layout-space-unit);

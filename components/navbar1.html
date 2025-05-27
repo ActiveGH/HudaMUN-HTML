@@ -1,17 +1,115 @@
 <!DOCTYPE html>
-<html lang="en"
-  ><head
-    ><title>HudaMUN</title
-    ><meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    /><meta charset="utf-8" /><meta
-      property="twitter:card"
-      content="summary_large_image"
-    />
+<html lang="en">
+  <head>
+    <title>HudaMUN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        -webkit-font-smoothing: antialiased;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+        color: inherit;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      details {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      [data-thq="accordion"] [data-thq="accordion-content"] {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+        padding: 0;
+      }
+      [data-thq="accordion"]
+        details[data-thq="accordion-trigger"][open]
+        + [data-thq="accordion-content"] {
+        max-height: 1000vh;
+      }
+      details[data-thq="accordion-trigger"][open]
+        summary
+        [data-thq="accordion-icon"] {
+        transform: rotate(180deg);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -21,7 +119,7 @@
 
       body {
         font-weight: 400;
-        font-style:normal;
+        font-style: normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
@@ -56,69 +154,83 @@
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
   </head>
-  <body
-    ><link rel="stylesheet" href="../style.css" /><div
-      ><link href="./navbar1.css" rel="stylesheet" /><header
-        class="navbar1-container navbar1"
-        ><header data-thq="thq-navbar" class="navbar1-navbar-interactive"
-          ><div data-thq="thq-navbar-nav" class="navbar1-desktop-menu"
-            ><nav class="navbar1-links1"
-              ><a
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./navbar1.css" rel="stylesheet" />
+      <header class="navbar1-container navbar1">
+        <header data-thq="thq-navbar" class="navbar1-navbar-interactive">
+          <div data-thq="thq-navbar-nav" class="navbar1-desktop-menu">
+            <nav class="navbar1-links1">
+              <a
                 href="index.html"
                 class="navbar1-link11 thq-body-small thq-link"
+                style="font-size: 34px"
                 ><fragment class="navbar1-fragment3"
                   ><span class="navbar1-text3">Home</span></fragment
                 ></a
               ><a
                 href="committees.html"
                 class="navbar1-link31 thq-body-small thq-link"
+                style="font-size: 34px"
                 ><fragment class="navbar1-fragment1"
                   ><span class="navbar1-text1">Committees</span></fragment
                 ></a
               ><a
                 href="applications.html"
                 class="navbar1-link41 thq-body-small thq-link"
+                style="font-size: 34px"
                 ><fragment class="navbar1-fragment2"
                   ><span class="navbar1-text2">Applications </span></fragment
                 ></a
-              ></nav
-            ></div
-          ><div data-thq="thq-burger-menu" class="navbar1-burger-menu"
-            ><svg viewBox="0 0 1024 1024" class="navbar1-icon1">
+              >
+            </nav>
+          </div>
+          <div data-thq="thq-burger-menu" class="navbar1-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="navbar1-icon1">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-              ></path></svg></div
-          ><div data-thq="thq-mobile-menu" class="navbar1-mobile-menu"
-            ><div class="navbar1-nav"
-              ><div class="navbar1-top"
-                ><div data-thq="thq-close-menu" class="navbar1-close-menu"
-                  ><svg viewBox="0 0 1024 1024" class="navbar1-icon3">
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="navbar1-mobile-menu">
+            <div class="navbar1-nav">
+              <div class="navbar1-top">
+                <div data-thq="thq-close-menu" class="navbar1-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="navbar1-icon3">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                    ></path></svg></div></div
-              ><nav class="navbar1-links2"
-                ><a
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="navbar1-links2">
+                <a
                   href="index.html"
                   class="navbar1-link12 thq-body-small thq-link"
+                  style="font-size: 34px"
                   ><fragment class="navbar1-fragment3"
                     ><span class="navbar1-text3">Home</span></fragment
                   ></a
                 ><a
                   href="committees.html"
                   class="navbar1-link32 thq-body-small thq-link"
+                  style="font-size: 34px"
                   ><fragment class="navbar1-fragment1"
                     ><span class="navbar1-text1">Committees</span></fragment
                   ></a
                 ><a
                   href="applications.html"
                   class="navbar1-link42 thq-body-small thq-link"
+                  style="font-size: 34px"
                   ><fragment class="navbar1-fragment2"
                     ><span class="navbar1-text2">Applications </span></fragment
                   ></a
-                ></nav
-              ></div
-            ><div class="navbar1-icon-group"
-              ><a
+                >
+              </nav>
+            </div>
+            <div class="navbar1-icon-group">
+              <a
                 href="https://www.instagram.com/hudamun25/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -129,10 +241,16 @@
                 >
                   <path
                     d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                  ></path></svg></a></div></div></header></header
-    ></div>
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+        </header>
+      </header>
+    </div>
     <script
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script></body
-></html>
+    ></script>
+  </body>
+</html>
