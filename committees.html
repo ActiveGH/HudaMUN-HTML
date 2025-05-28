@@ -205,70 +205,42 @@
                   >
                 </nav>
               </div>
-              <div class="navbar1-mobile-topbar" style="display:flex;align-items:center;width:100%;padding:0 1rem;">
-                <a href="https://hudamun.club/" style="flex-shrink:0;">
-                  <img src="public/hudamun-logo-bar3.png" width="240px" alt="HudaMUN logo" style="display:block; height: auto;" />
-                </a>
-                <span style="flex:1 1 auto;"></span>
-                <div data-thq="thq-burger-menu" class="navbar1-burger-menu" style="margin-left:auto;">
-                  <svg viewBox="0 0 1024 1024" class="navbar1-icon1">
-                    <path
-                      d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                    ></path>
-                  </svg>
-                </div>
+              <!-- New Dropdown Menu Button -->
+              <button id="navbar-dropdown-toggle" aria-label="Open menu" style="background:none;border:none;outline:none;display:flex;align-items:center;cursor:pointer;margin-left:auto;">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#facc15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+              </button>
+              <!-- New Dropdown Menu -->
+              <div id="navbar-dropdown-menu" style="position:absolute;top:100%;left:0;width:100vw;display:none;z-index:999;background:var(--dl-color-theme-primary1);box-shadow:0 8px 24px rgba(0,0,0,0.12);overflow:hidden;transition:max-height 0.4s cubic-bezier(.4,0,.2,1);max-height:0;">
+                <nav style="display:flex;flex-direction:column;align-items:center;padding:2rem 0;gap:2rem;">
+                  <a href="https://hudamun.club/" class="navbar1-link11 thq-body-small thq-link" style="font-size: 30px; color:#facc15;">Home</a>
+                  <a href="committees.html" class="navbar1-link31 thq-body-small thq-link" style="font-size: 30px; color:#facc15;">Committees</a>
+                  <a href="applications.html" class="navbar1-link41 thq-body-small thq-link" style="font-size: 30px; color:#facc15;">Applications</a>
+                </nav>
               </div>
-              <div data-thq="thq-mobile-menu" class="navbar1-mobile-menu">
-                <div class="navbar1-nav">
-                  <div class="navbar1-top">
-                    <div data-thq="thq-close-menu" class="navbar1-close-menu">
-                      <svg viewBox="0 0 1024 1024" class="navbar1-icon3">
-                        <path
-                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <nav class="navbar1-links2">
-                    <a
-                      href="https://hudamun.club/"
-                      class="navbar1-link12 thq-body-small thq-link" style="font-size: 34px;"
-                      ><fragment class="committees-fragment10"
-                        ><span class="committees-text10">Home</span></fragment
-                      ></a
-                    ><a
-                      href="committees.html"
-                      class="navbar1-link32 thq-body-small thq-link" style="font-size: 34px;"
-                      ><fragment class="committees-fragment11"
-                        ><span class="committees-text11"
-                          >Committees</span
-                        ></fragment
-                      ></a
-                    ><a
-                      href="applications.html"
-                      class="navbar1-link42 thq-body-small thq-link" style="font-size: 34px;"
-                      ><fragment class="committees-fragment12"
-                        ><span class="committees-text12"
-                          >Applications
-                        </span></fragment
-                      ></a
-                    >
-                  </nav>
-                </div>
-                <div class="navbar1-icon-group">
-                  <a
-                    href="https://www.instagram.com/hudamun25/"
-                    class="navbar1-link"
-                    ><svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="navbar1-icon5 thq-icon-x-small"
-                    >
-                      <path
-                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                      ></path></svg
-                  ></a>
-                </div>
-              </div>
+              <script>
+                // Dropdown menu toggle logic
+                const toggleBtn = document.getElementById('navbar-dropdown-toggle');
+                const dropdownMenu = document.getElementById('navbar-dropdown-menu');
+                let menuOpen = false;
+                toggleBtn.addEventListener('click', function() {
+                  menuOpen = !menuOpen;
+                  if(menuOpen) {
+                    dropdownMenu.style.display = 'block';
+                    setTimeout(()=>dropdownMenu.style.maxHeight = '400px', 10);
+                  } else {
+                    dropdownMenu.style.maxHeight = '0';
+                    setTimeout(()=>dropdownMenu.style.display = 'none', 400);
+                  }
+                });
+                // Optional: close menu on link click (for SPA feel)
+                dropdownMenu.querySelectorAll('a').forEach(link => {
+                  link.addEventListener('click', () => {
+                    menuOpen = false;
+                    dropdownMenu.style.maxHeight = '0';
+                    setTimeout(()=>dropdownMenu.style.display = 'none', 400);
+                  });
+                });
+              </script>
             </header></header></navbar1-wrapper
         ><banner-committees-wrapper
           class="banner-committees-wrapper"
