@@ -1401,3 +1401,59 @@ body {
     font-size: 26px;
   }
 }
+
+/* New Dropdown Navbar Styles */
+#navbar-dropdown-toggle {
+  display: none;
+}
+#navbar-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background: var(--dl-color-theme-primary1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  z-index: 999;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 0;
+  display: none;
+}
+#navbar-dropdown-menu.open {
+  display: block;
+  max-height: 400px;
+}
+#navbar-dropdown-menu nav a {
+  color: #facc15;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: color 0.2s;
+}
+#navbar-dropdown-menu nav a:hover {
+  color: #fffbe7;
+}
+
+@media (max-width: 991px) {
+  .navbar1-desktop-menu {
+    display: none !important;
+  }
+  #navbar-dropdown-toggle {
+    display: flex !important;
+  }
+}
+@media (min-width: 992px) {
+  #navbar-dropdown-toggle {
+    display: none !important;
+  }
+  #navbar-dropdown-menu {
+    display: none !important;
+  }
+}
+
+/* Remove old mobile menu styles */
+.navbar1-burger-menu,
+.navbar1-mobile-menu,
+.navbar1-close-menu {
+  display: none !important;
+}
