@@ -233,7 +233,7 @@ body {
 
 .banner-committees-container {
   gap: var(--dl-layout-space-unit);
-  height: 380px;
+  height: 300px;
   display: flex;
   position: relative;
   align-items: center;
@@ -244,15 +244,12 @@ body {
 }
 
 .banner-committees-max-width {
-  gap: var(--dl-layout-space-oneandhalfunits);
   width: 100%;
   height: 100%;
   display: flex;
   z-index: 100;
   align-items: center;
-  padding-top: var(--dl-layout-space-twounits);
   flex-direction: column;
-  padding-bottom: var(--dl-layout-space-unit);
   justify-content: center;
 }
 
@@ -282,7 +279,7 @@ body {
   display: inline-block;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .banner-committees-max-width {
     height: 50%;
     align-items: center;
