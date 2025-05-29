@@ -131,7 +131,15 @@ body {
 #apply-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 1.5rem;
+  transform: translateX(-53.5px);
+}
+
+.apply-robot-img {
+  height: 170px;
+  width: auto;
+  display: inline-block;
 }
 
 #apply-button {
@@ -145,6 +153,7 @@ body {
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
   display: inline-block;
+  margin-bottom: -19px;
 }
 
 #apply-button:hover {
@@ -296,6 +305,7 @@ body {
   background-repeat: space;
   background-position: center;
   padding: var(--dl-layout-space-threeunits);
+  padding-bottom: 0px;
   border-top: 2px solid #facc15;
 }
 
@@ -319,7 +329,6 @@ body {
   z-index: 100;
   align-items: center;
   flex-direction: column;
-  padding-bottom: var(--dl-layout-space-unit);
 }
 
 .banner-home-container2 {
