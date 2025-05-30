@@ -1044,6 +1044,7 @@ body {
   transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   max-height: 0;
   display: none;
+  margin-top: 2px;
 }
 #navbar-dropdown-menu.open {
   display: block;
