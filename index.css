@@ -1427,6 +1427,7 @@ body {
   transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   max-height: 0;
   display: none;
+  margin-top: 2px;
 }
 #navbar-dropdown-menu.open {
   display: block;
@@ -1465,4 +1466,21 @@ body {
 .navbar1-mobile-menu,
 .navbar1-close-menu {
   display: none !important;
+}
+
+@media (max-width: 991px) {
+  .navbar1-mobile-logo {
+    display: flex;
+    align-items: center;
+    height: 110px;
+  }
+  .navbar1-mobile-logo img {
+    height: 54px;
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .navbar1-mobile-logo {
+    display: none !important;
+  }
 }
