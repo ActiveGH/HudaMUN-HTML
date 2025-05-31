@@ -234,8 +234,7 @@ body {
 }
 
 .banner-committees-container {
-  gap: var(--dl-layout-space-unit);
-  height: 300px;
+  min-height: 300px;
   display: flex;
   position: relative;
   align-items: center;
@@ -243,6 +242,8 @@ body {
   justify-content: center;
   background-color: #000030;
   border-top: 2px solid #facc15;
+  padding-bottom: 0px;
+  padding-top: 60px;
 }
 
 .banner-committees-max-width {
@@ -253,6 +254,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .banner-committees-title {
@@ -341,6 +343,40 @@ body {
   margin: var(--dl-layout-space-fourunits);
   display: flex;
   flex-direction: column;
+}
+
+.committee-robots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.mscc-robot {
+  width: 150px;
+  height: auto;
+  transform: translateX(-340px);
+}
+
+@media (max-width: 910px) {
+  .mscc-robot {
+    width: 120px;
+    transform: translateX(-240px);
+  }
+}
+
+@media (max-width: 767px) {
+  .mscc-robot {
+    width: 100px;
+    transform: translateX(-200px);
+  }
+}
+
+@media (max-width: 555px) {
+  .mscc-robot {
+    width: 80px;
+    transform: translateX(-160px);
+  }
 }
 
 .app-component-slider {
