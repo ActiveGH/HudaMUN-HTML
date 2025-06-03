@@ -232,27 +232,24 @@ body {
 }
 
 .banner-committees-container {
-  min-height: 300px;
   display: flex;
   position: relative;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   background-color: #000030;
   border-top: 2px solid #facc15;
+  padding-top: 0px;
   padding-bottom: 0px;
-  padding-top: 60px;
 }
 
 .banner-committees-max-width {
-  width: 100%;
-  height: 100%;
+  width: 400px;
   display: flex;
   z-index: 100;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .banner-committees-title {
@@ -348,32 +345,29 @@ body {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
+  padding-top: 45px;
 }
 
 .hcc-robot {
   width: 150px;
   height: auto;
-  transform: translateX(-340px);
 }
 
 @media (max-width: 910px) {
   .hcc-robot {
     width: 120px;
-    transform: translateX(-240px);
   }
 }
 
 @media (max-width: 767px) {
   .hcc-robot {
     width: 100px;
-    transform: translateX(-200px);
   }
 }
 
 @media (max-width: 555px) {
   .hcc-robot {
     width: 80px;
-    transform: translateX(-160px);
   }
 }
 
